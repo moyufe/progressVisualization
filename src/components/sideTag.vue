@@ -39,14 +39,14 @@ const menuOptions: MenuOption[] = [
     icon: renderIcon(BarChart),
   },
   {
-    label: rederLabel("taskAdd", "添加任务"),
-    key: 'taskAdd',
-    icon: renderIcon(AddCircleOutline)
-  },
-  {
     label: rederLabel("updateProgress", "更新任务"),
     key: 'updateProgress',
     icon: renderIcon(Create)
+  },
+  {
+    label: rederLabel("taskAdd", "添加任务"),
+    key: 'taskAdd',
+    icon: renderIcon(AddCircleOutline)
   },
 ]
 

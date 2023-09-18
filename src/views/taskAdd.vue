@@ -95,3 +95,11 @@ import { taskDataType } from '../interfaces/interfaces';
         })
     }
 </script>
+
+<style scoped>
+  .n-form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
